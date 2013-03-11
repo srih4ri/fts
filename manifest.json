@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+
+    "name": "FTS",
+    "description": "This extension cleans up your facebook feed",
+    "version": "1.0",
+    "permissions": [
+        "https://www.facebook.com/",
+        "tabs"
+    ],
+    "page_action": {
+        "default_icon": "icon.png"
+    },
+    "icons" : {
+        "48" : "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.facebook.com/*"],
+            "css": ["fts.css"],
+            "js": ["jquery.js", "fts.js"]
+        }
+    ]
+}
