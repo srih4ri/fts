@@ -1,0 +1,3 @@
+- [ ] Identify images based on their content, rather than url.
+- [ ] Store effeciently and make testing of blocked images effecient.
+- [ ] Add block links for newly added images.
