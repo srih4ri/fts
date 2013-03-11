@@ -6,7 +6,8 @@
     "version": "1.0",
     "permissions": [
         "https://www.facebook.com/",
-        "tabs"
+        "tabs",
+        "storage"
     ],
     "page_action": {
         "default_icon": "icon.png"
